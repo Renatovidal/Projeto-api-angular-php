@@ -1,0 +1,20 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 96vh;
+}
+
+.container {
+    background-color: rgba(56, 56, 206, 0.801);
+    color: beige;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    text-align: center;
+}

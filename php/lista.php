@@ -31,6 +31,6 @@ while($linha = mysqli_fetch_assoc($executar)){
 
 //json
 
-echo json_encode(['cursos'=>$cursos]);
+echo json_encode($cursos);
 
 ?>
